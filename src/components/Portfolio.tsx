@@ -541,7 +541,7 @@ const Portfolio = () => {
                 {/* GitHub Stats Card */}
                 <div className="bg-slate-800/50 rounded-xl p-4 border border-slate-600/30">
                   <img 
-                    src="https://github-readme-stats.vercel.app/api?username=yaminichhabra7&show_icons=true&theme=dark&bg_color=1e293b&title_color=3b82f6&text_color=e2e8f0&icon_color=10b981&border_color=475569"
+                    src="https://github-readme-stats.vercel.app/api?username=yaminichhabra&show_icons=true&theme=dark&bg_color=1e293b&title_color=3b82f6&text_color=e2e8f0&icon_color=10b981&border_color=475569"
                     alt="Yamini's GitHub Stats"
                     className="w-full h-auto rounded-lg"
                     loading="lazy"
@@ -551,7 +551,7 @@ const Portfolio = () => {
                 {/* GitHub Streak */}
                 <div className="bg-slate-800/50 rounded-xl p-4 border border-slate-600/30">
                   <img 
-                    src="https://github-readme-streak-stats.herokuapp.com/?user=yaminichhabra7&theme=dark&background=1e293b&border=475569&stroke=3b82f6&ring=10b981&fire=f59e0b&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=3b82f6&sideLabels=64748b&dates=94a3b8"
+                    src="https://github-readme-streak-stats.herokuapp.com/?user=yaminichhabra&theme=dark&background=1e293b&border=475569&stroke=3b82f6&ring=10b981&fire=f59e0b&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=3b82f6&sideLabels=64748b&dates=94a3b8"
                     alt="Yamini's GitHub Streak"
                     className="w-full h-auto rounded-lg"
                     loading="lazy"
@@ -561,7 +561,7 @@ const Portfolio = () => {
                 {/* Top Languages */}
                 <div className="bg-slate-800/50 rounded-xl p-4 border border-slate-600/30">
                   <img 
-                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=yaminichhabra7&layout=compact&theme=dark&bg_color=1e293b&title_color=3b82f6&text_color=e2e8f0&border_color=475569"
+                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=yaminichhabra&layout=compact&theme=dark&bg_color=1e293b&title_color=3b82f6&text_color=e2e8f0&border_color=475569"
                     alt="Yamini's Top Languages"
                     className="w-full h-auto rounded-lg"
                     loading="lazy"
@@ -572,7 +572,7 @@ const Portfolio = () => {
             <div className="mt-6 text-center">
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
-                  href="https://github.com/yaminichhabra7" 
+                  href="https://github.com/yaminichhabra" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-gradient-to-r from-slate-600 to-slate-500 hover:from-slate-500 hover:to-slate-400 px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105"
@@ -582,7 +582,7 @@ const Portfolio = () => {
                   <ExternalLink className="w-4 h-4" />
                 </a>
                 <a 
-                  href="https://github.com/yaminichhabra7?tab=repositories" 
+                  href="https://github.com/yaminichhabra?tab=repositories" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 px-6 py-3 rounded-xl font-semibold transition-all duration-300 border border-white/20"
