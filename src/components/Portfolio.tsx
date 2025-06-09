@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Terminal, Code2, Zap, Database, Cloud, Cpu, TrendingUp, Users, Shield, Gauge, ChevronRight, ExternalLink, Github, Linkedin, Mail, Phone, Award, Target, Briefcase, Star, Quote, CheckCircle } from 'lucide-react';
 
 // Define types for our data structures
@@ -32,7 +32,7 @@ const Portfolio = () => {
   const [currentRecommendation, setCurrentRecommendation] = useState(0);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
-  const commands = [
+  const commands = useMemo(() => [
     "git log --oneline --author='Yamini Chhabra' | head -10",
     "// Active GitHub contributions • Real hands-on coding",
     "ls ~/side-projects/",
@@ -46,7 +46,7 @@ const Portfolio = () => {
     "curl -s https://api.github.com/users/yaminichhabra7",
     "// Real GitHub stats loading above ↑",
     "// Ready to architect your next billion-user platform 🚀"
-  ];
+  ], []);
 
   const faangMetrics = [
     { value: "100K+", label: "Students Served", icon: <Users className="w-5 h-5" />, detail: "Cambridge University Press platform" },
