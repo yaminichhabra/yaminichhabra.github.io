@@ -147,7 +147,7 @@ const Portfolio = () => {
       }, 1200);
       return () => clearTimeout(timeout);
     }
-  }, [typedText, currentCommand, isTyping]);
+  }, [typedText, currentCommand, isTyping, commands]);
 
   // Recommendation cycling
   useEffect(() => {
@@ -155,7 +155,7 @@ const Portfolio = () => {
       setCurrentRecommendation((prev) => (prev + 1) % linkedinRecommendations.length);
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, [linkedinRecommendations.length]);
 
   const skills: Skills = {
     frontend: {
