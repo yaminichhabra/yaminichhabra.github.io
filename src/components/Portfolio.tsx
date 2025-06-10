@@ -49,7 +49,7 @@ const Portfolio = () => {
   ], []);
 
   const faangMetrics = [
-    { value: "100K+", label: "Students Served", icon: <Users className="w-5 h-5" />, detail: "Cambridge University Press platform" },
+    { value: "6M+", label: "Users Served", icon: <Users className="w-5 h-5" />, detail: "Cambridge University Press platform" },
     { value: "25%", label: "Performance Boost", icon: <Gauge className="w-5 h-5" />, detail: "Page load time improvement" },
     { value: "85%", label: "Automation Gain", icon: <Zap className="w-5 h-5" />, detail: "Manual data entry reduction" },
     { value: "70%", label: "Bug Reduction", icon: <Shield className="w-5 h-5" />, detail: "Through testing frameworks" },
@@ -162,10 +162,10 @@ const Portfolio = () => {
       icon: <Code2 className="w-5 h-5" />,
       color: "from-blue-500 to-cyan-400",
       items: [
-        { name: "React", level: 98, experience: "5+ years", realWork: "CUP Nemo, Pangea, VHL Reader" },
-        { name: "React Native", level: 95, experience: "4+ years", realWork: "CUP Nemo, Pangea mobile apps" },
-        { name: "TypeScript", level: 92, experience: "4+ years", realWork: "Enterprise applications" },
-        { name: "Angular", level: 88, experience: "3+ years", realWork: "VHL Reader, seed applications" },
+        { name: "React", level: 98, experience: "6+ years", realWork: "CUP Nemo, Pangea, VHL Reader" },
+        { name: "React Native", level: 95, experience: "5+ years", realWork: "CUP Nemo, Pangea mobile apps" },
+        { name: "TypeScript", level: 92, experience: "8+ years", realWork: "Enterprise applications" },
+        { name: "Angular", level: 88, experience: "5+ years", realWork: "VHL Reader, seed applications" },
         { name: "Vue.js", level: 85, experience: "3+ years", realWork: "Cambridge University Press" }
       ]
     },
@@ -173,22 +173,22 @@ const Portfolio = () => {
       icon: <Database className="w-5 h-5" />,
       color: "from-emerald-500 to-teal-400",
       items: [
-        { name: "Node.js", level: 96, experience: "6+ years", realWork: "All major projects, REST APIs" },
-        { name: "Java", level: 90, experience: "8+ years", realWork: "Enterprise backend systems" },
+        { name: "Node.js", level: 96, experience: "10 years", realWork: "All major projects, REST APIs" },
+        { name: "Java", level: 90, experience: "3+ years", realWork: "Enterprise backend systems" },
         { name: "MongoDB", level: 88, experience: "5+ years", realWork: "Pangea, data modeling" },
-        { name: "Express", level: 94, experience: "5+ years", realWork: "API development, middleware" },
-        { name: "Redis", level: 85, experience: "3+ years", realWork: "Caching, session management" }
+        { name: "Express", level: 94, experience: "10 years", realWork: "API development, middleware" },
+        { name: "Redis", level: 85, experience: "10 years", realWork: "Caching, session management" }
       ]
     },
     cloud: {
       icon: <Cloud className="w-5 h-5" />,
       color: "from-violet-500 to-purple-400",
       items: [
-        { name: "AWS Lambda", level: 94, experience: "4+ years", realWork: "Serverless architecture, Pangea" },
-        { name: "AWS S3/CloudFront", level: 92, experience: "4+ years", realWork: "Asset management, CDN" },
-        { name: "API Gateway", level: 88, experience: "4+ years", realWork: "Microservices, routing" },
-        { name: "DynamoDB", level: 86, experience: "3+ years", realWork: "NoSQL data storage" },
-        { name: "Docker", level: 90, experience: "4+ years", realWork: "Containerization, deployment" }
+        { name: "AWS Lambda", level: 94, experience: "7+ years", realWork: "Serverless architecture, Pangea" },
+        { name: "AWS S3/CloudFront", level: 92, experience: "7+ years", realWork: "Asset management, CDN" },
+        { name: "API Gateway", level: 88, experience: "7+ years", realWork: "Microservices, routing" },
+        { name: "DynamoDB", level: 86, experience: "4+ years", realWork: "NoSQL data storage" },
+        { name: "Docker", level: 90, experience: "7+ years", realWork: "Containerization, deployment" }
       ]
     },
     leadership: {
@@ -196,10 +196,10 @@ const Portfolio = () => {
       color: "from-orange-500 to-amber-400",
       items: [
         { name: "Team Leadership", level: 93, experience: "5+ years", realWork: "Led team of 9 at Compro" },
-        { name: "Mentoring", level: 89, experience: "4+ years", realWork: "Trained 3 new engineers" },
+        { name: "Mentoring", level: 89, experience: "5+ years", realWork: "Trained 3 new engineers" },
         { name: "Architecture Design", level: 91, experience: "6+ years", realWork: "Full-stack system design" },
         { name: "Code Review", level: 95, experience: "7+ years", realWork: "Quality assurance, best practices" },
-        { name: "Technical Strategy", level: 87, experience: "4+ years", realWork: "Technology decisions, roadmaps" }
+        { name: "Technical Strategy", level: 87, experience: "8+ years", realWork: "Technology decisions, roadmaps" }
       ]
     }
   };
@@ -218,7 +218,7 @@ const Portfolio = () => {
         'Established testing framework reducing production bugs by 70%'
       ],
       techStack: ['React Native', 'React', 'Node.js', 'MongoDB', 'AWS Lambda', 'AI APIs'],
-      metrics: { users: '10K+', growth: '110%', automation: '85%', reliability: '70% ↓ bugs' }
+      metrics: { users: '20K+', growth: '110%', automation: '85%', reliability: '70% ↓ bugs' }
     },
     {
       name: 'Compro Technologies',
@@ -233,7 +233,7 @@ const Portfolio = () => {
         'Implemented CI/CD pipeline reducing deployment time by 40%'
       ],
       techStack: ['React', 'Vue.js', 'Angular', 'Node.js', 'Java', 'AWS', 'Docker'],
-      metrics: { scale: '100K+ users', performance: '25% ↑', team: '9 engineers', deployment: '40% faster' }
+      metrics: { scale: '6M+ users', performance: '25% ↑', team: '9 engineers', deployment: '40% faster' }
     }
   ];
 
@@ -241,7 +241,7 @@ const Portfolio = () => {
     {
       name: 'CUP Nemo App',
       client: 'Cambridge University Press',
-      scale: '100K+ students globally',
+      scale: '6M+ students globally',
       description: 'Offline-accessible mobile education platform with seamless content synchronization',
       techStack: ['React Native', 'React', 'Vue.js', 'Redux', 'Node.js', 'AWS CloudFront', 'Webpack'],
       achievements: [
@@ -250,7 +250,7 @@ const Portfolio = () => {
         'Offline-first architecture with modular micro-applications',
         'Enhanced app performance and security for rapid deployment'
       ],
-      metrics: { users: '100K+', performance: '25% faster', architecture: 'Serverless', deployment: 'Automated' }
+      metrics: { users: '6M+', performance: '25% faster', architecture: 'Serverless', deployment: 'Automated' }
     },
     {
       name: 'VHL Reader',
