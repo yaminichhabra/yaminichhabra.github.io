@@ -269,7 +269,7 @@ const Portfolio = () => {
     {
       name: 'Pangea Travel Platform',
       client: 'The Pangea Technology Group',
-      scale: '10K+ users, 110% growth',
+      scale: '20K+ users, 110% monthly growth',
       description: 'AI-powered travel ecosystem with automated itinerary planning and social features',
       techStack: ['React Native', 'React', 'Node.js', 'MongoDB', 'AWS Lambda', 'AI/ML APIs'],
       achievements: [
