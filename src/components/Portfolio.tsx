@@ -61,7 +61,7 @@ const Portfolio = () => {
     {
       name: "Senior Engineering Manager",
       company: "Cambridge University Press",
-      text: "Yamini consistently delivered high-quality solutions and demonstrated exceptional technical leadership. Her work on our educational platform improved performance by 25% and enhanced user experience for over 100K students globally.",
+      text: "Yamini consistently delivered high-quality solutions and demonstrated exceptional technical leadership. Her work on our educational platform improved performance by 25% and enhanced user experience for over 6M+ students globally.",
       rating: 5
     },
     {
@@ -227,7 +227,7 @@ const Portfolio = () => {
       location: 'Delhi, India',
       type: 'ENTERPRISE',
       impact: [
-        'Led Cambridge University Press project serving 100K+ students',
+        'Led Cambridge University Press project serving 6M+ students',
         'Achieved 25% improvement in page load times through optimization',
         'Led cross-functional team of 9 engineers through complex projects',
         'Implemented CI/CD pipeline reducing deployment time by 40%'
