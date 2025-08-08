@@ -359,13 +359,7 @@ const Portfolio = () => {
                   <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
                   Schedule Interview
                 </a>
-                <a 
-                  href="tel:+19802231782"
-                  className="bg-white/10 backdrop-blur-xl px-6 sm:px-8 py-3 rounded-xl font-semibold hover:bg-white/20 transition-colors border border-white/20 flex items-center justify-center gap-2"
-                >
-                  <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
-                  Call Now
-                </a>
+                
               </div>
             </div>
 
@@ -860,14 +854,6 @@ const Portfolio = () => {
                 <Mail className="w-5 h-5 sm:w-6 sm:h-6" />
                 Schedule Technical Interview
               </a>
-              <a 
-                href="tel:+19802231782"
-                className="inline-flex items-center justify-center gap-3 bg-white/10 backdrop-blur-xl px-8 sm:px-10 py-3 sm:py-4 rounded-xl text-lg font-semibold hover:bg-white/20 transition-colors border border-white/20"
-              >
-                <Phone className="w-5 h-5 sm:w-6 sm:h-6" />
-                <span className="hidden sm:inline">Direct Call: (980) 223-1782</span>
-                <span className="sm:hidden">Call Now</span>
-              </a>
             </div>
             <div className="mt-6 sm:mt-8 text-sm text-slate-400">
               📍 Cornelius, North Carolina • Available immediately • Open to relocation
@@ -915,10 +901,7 @@ const Portfolio = () => {
             <a href="mailto:yaminichhabra7@gmail.com" className="hover:text-blue-400 transition-colors">
               yaminichhabra7@gmail.com
             </a>
-            <span className="hidden sm:inline">•</span>
-            <a href="tel:+19802231782" className="hover:text-blue-400 transition-colors">
-              +1 (980) 223-1782
-            </a>
+  
           </div>
         </div>
       </footer>
